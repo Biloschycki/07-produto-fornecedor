@@ -41,4 +41,11 @@ public class Produto {
     public void setQuantidadeEstoque(int quantidadeEstoque) {
         this.quantidadeEstoque = quantidadeEstoque;
     }
+
+    public Fornecedor getFonercedor(){
+        return fornecedor;
+    }
+    public void setFornecedor(Fornecedor fornecedor){
+    this.fornecedor=fornecedor;}
 }
+
